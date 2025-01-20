@@ -144,6 +144,8 @@ function randomColor() {
 }
 
 let seventh_div = document.querySelector(".seventh-div");
+seventh_div.style = "position:relative; height: 800px;";
+
 // console.log(seventh_div);
 
 let seventh_div_content = '';
@@ -166,6 +168,7 @@ for(let i = 0; i < 14; i++){
 // console.log(width)
 // console.log(seventh_div_content);
 seventh_div.innerHTML = seventh_div_content;
+seventh_div.style.position = "relative";
 
 
 
@@ -192,19 +195,35 @@ document.querySelector(".eight-div").style = "width: 900px; height: 900px; box-s
 
 // task 9 -------------------------------------
 // Uždavinyje prieš tai nupieštam kvadratui nupieškite geltonas istrižaides (geltonai nudažykite atitinkamus simbolius). #ciklasCikle
-let counter = qty_in_row + 1;
+// let counter = qty_in_row + 1;
+
+// for (let i = 1; i <= row_num; i++){
+//     counter--;
+//     console.log(counter)
+//     document.querySelector(`.eight-div > div:nth-child(${i}) > span:nth-child(${i})`).style.color = "yellow";
+//     document.querySelector(`.eight-div > div:nth-child(${i}) > span:nth-child(${counter})`).style.color = "yellow";
+
+// }
+
+// OR
 
 for (let i = 1; i <= row_num; i++){
-    counter--;
-    console.log(counter)
     document.querySelector(`.eight-div > div:nth-child(${i}) > span:nth-child(${i})`).style.color = "yellow";
-    document.querySelector(`.eight-div > div:nth-child(${i}) > span:nth-child(${counter})`).style.color = "yellow";
 
+}
+
+let counter = qty_in_row;
+
+for (let r = 1; r <= row_num; r++){
+    document.querySelector(`.eight-div > div:nth-child(${r}) > span:nth-child(${counter})`).style.color = "yellow";
+    counter--
 }
 
 
 
 
 // task 10 -------------------------------------
+// Uždavinį atlikite atskirame html faile. Visame ekrane atsitiktine tvarka “išmėtykite“ 444 pusiau permatomus atsitiktinės spalvos ir atsitiktinio skersmens nuo 44 iki 144 (px) apskritimus. Apskritimai turi tolygiai (pagal funkciją rand()) dengti visą ekraną.#fun
+
 document.querySelector(".tenth-div").innerHTML = `<a href="./task_10.html">Task 10</a>`
 
