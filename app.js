@@ -1,3 +1,4 @@
+console.log("app.js is loaded on 10");
 // task 1
 // Naršyklėje įdėkite 14 h1 tagų su skaičiumi 4 ir 14 h4 tagų su skaičiumi 1. Visi tagai turi rikiuotis į vieną eilutę.
 // 14 x h1 su 4 
@@ -225,5 +226,23 @@ for (let r = 1; r <= row_num; r++){
 // task 10 -------------------------------------
 // Uždavinį atlikite atskirame html faile. Visame ekrane atsitiktine tvarka “išmėtykite“ 444 pusiau permatomus atsitiktinės spalvos ir atsitiktinio skersmens nuo 44 iki 144 (px) apskritimus. Apskritimai turi tolygiai (pagal funkciją rand()) dengti visą ekraną.#fun
 
-document.querySelector(".tenth-div").innerHTML = `<a href="./task_10.html">Task 10</a>`
+// let tenth_div = document.querySelector(".tenth-div");
+// tenth_div.style.position = "relative";
+// tenth_div.innerHTML = `<a href="./task_10.html">Task 10</a>`;
 
+// let tenth_extra = document.querySelector(".tenth-div-extra");
+// tenth_extra.innerHTML = `<div class="wrapper">wrapper</div>`
+// existing_html = document.querySelector(".tenth-div");
+// console.log(existing_html);
+
+// for (let i = 0; i < 444; i++){
+//     let circle_diameter = rand(44,144);
+//     let random_color = randomColor();
+//     existing_html.appendChild(`<div style="widht:200px; height: 200px; background-color: rgb(255, 0, 0">cia yra div</div>`)
+// }
+
+// document.querySelector(".tenth-div-extra").innerHTML = `<div style="widht:200px; height: 200px; background-color: rgb(255, 0, 0">cia yra div</div>`
+
+
+
+// console.log(random_color);
