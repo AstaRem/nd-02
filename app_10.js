@@ -10,15 +10,15 @@ function randomColor() {
     return '#' + Math.floor(Math.random() * 16777215).toString(16).padEnd(6, '0');
 }
 
-
+let tenth_div = document.querySelector(".tenth-div");
 let tenth_div_extra = document.querySelector(".tenth-div-extra");
-let tenth_body = document.querySelector("body");
+
 tenth_div_extra.style.position = "relative";
-tenth_div_extra.innerHTML = `<a href="./task_10.html">Task 10</a>`;
+// tenth_div_extra.innerHTML = `<a href="./task_10.html">Task 10</a>`;
 
 let tenth_extra = document.querySelector(".tenth-div-extra");
 
-tenth_body.style= "margin: 0; width:100vw; height:100vh;";
+tenth_div.style= "margin: 0; width:100vw; height:100vh;";
 
 
 
