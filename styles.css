@@ -1,0 +1,47 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.page-wrapper {
+    max-width: 1400px;
+    background-color: lightgrey;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.title-style {
+    margin: 10px;
+}
+
+.first-div{
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.blue-circle {
+    background-color: rgb(68, 68, 143);
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+}
+
+.red-circle {
+    background-color: rgb(148, 50, 55);
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+}
+
+.random-circles-10 {
+    height: 1200px;
+    width: 1200px;
+}
